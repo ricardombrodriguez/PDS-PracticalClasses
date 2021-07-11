@@ -8,7 +8,8 @@ This repository contains the resolution to the *Software Design and Patterns* pr
 - *lab02* - Code analysis and refactoring of the previous lab
 - *lab03* - Tic-Tac-Toe and Flight reservation program
 - *lab04* - Code analysis and refactoring of the previous lab
-- *lab05* to *lab12* - Design patterns - Creational, Structural and Behavioural patterns
+- *lab05* to *lab11* - Design patterns - Creational, Structural and Behavioural patterns
+- *lab12* - Java Reflection
 
 # Authors:
 
