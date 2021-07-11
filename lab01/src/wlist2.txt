@@ -1,0 +1,11 @@
+padroes
+desenho
+software
+computacao
+distribuida
+compiladores
+interacao
+humano
+computador
+base
+dados

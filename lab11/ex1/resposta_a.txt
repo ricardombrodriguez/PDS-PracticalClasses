@@ -1,0 +1,4 @@
+LAB11 - PDS
+
+a)  O padrão de comportamento Strategy pode ser usado para solucionar este problema. Uma vez que podemos criar várias classes concretas que implementam
+    um algoritmo especifico a partir de uma interface comum.

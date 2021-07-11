@@ -1,0 +1,11 @@
+A classe java.util.Calendar possui uma série de atributos estáticos (associados à classe), bem como vários atributos não estáticos (associados ao objeto).
+
+Após a inicialização/declaração das variáveis, existem vários construtores da classe, cada uma delas com argumentos de entrada diferentes (linhas 937-941 e linhas 949-957). O primeiro construtor (aquele que não tem parâmetros de entrada), vai construir um calendário com os parâmetros de entrada que faltam (TimeZone e Locale) na linha 939. Assim, o this(...) da linha 939 vai invocar o próximo construtor (linhas 949-957) para preencher todos os atributos precisos.
+
+Além disso, temos vários métodos getInstance(), com argumentos de entrada distintos, que criam um calendário e retornam uma nova instância da classe Calendar (linhas 981-1014). Todos os métodos getInstance() vão invocar a função createCalendar().
+
+O método createCalendar vai realizar uma verificação do tipo de calendário consoante os parâmetros de entrada, cria uma nova instância de um tipo de calendário específico (ex: calendário budista, gregoriano, japonês), isto é, subclasses de Calendar, e no final retorna essa mesma instância criada. Assim, a invocação do método getInstance(), que invoca esta função, é um exemplo de um Factory Method.
+
+Calendar é uma classe abstrata que, consoante o input dado ao método estático getInstance(), cria uma nova instância de todas as suas subclasses já referidas anteriormente. Assim, a primeira é a fábrica que vai "produzir" diferentes tipos de calendários. Podemos também verificar que é um Factory Method porque os construtores são "protected".
+
+Depois, temos uma série de getters e setters e outros métodos que são fundamentais para o funcionamento da classe.
